@@ -99,8 +99,6 @@ The sample size may seem large, but this number was selected because it will all
 The only "stopping rule" we will use is not with respect to the sample size but duration of collection, as described in the data collection procedures. 
 
 
- 
-
 ## Variables
 
 In this section you can describe all variables (both manipulated and measured variables) that will later be used in your confirmatory analysis plan. In your analysis plan, you will have the opportunity to describe how each variable will be used. If you have variables that you are measuring for exploratory analyses, you are not required to list them, though you are permitted to do so.
@@ -109,12 +107,15 @@ In this section you can describe all variables (both manipulated and measured va
 
 *11.1.	Describe all variables you plan to manipulate and the levels or treatment arms of each variable. For observational studies and meta-analyses, simply state that this is not applicable.*
 
+The variables we will be examining are the onset of Parkinson's disease like behaviors due to epoxomicin and PSI treatments relative to the control. The dosage of epoxomicin and PSI are also controlled, in the PSI treatment it will be 3 mg/kg (sc) and the epoxomicin group with get 1.5 mg/kg (ip). 
+
 
 
 ### 12.	Measured variables - Riley
 
 *12.1.	Describe each variable that you will measure. This will include outcome measures, as well as any predictors or covariates that you will measure. You do not need to include any variables that you plan on collecting if they are not going to be included in the confirmatory analyses of this study.*
 
+Within each treatment group we will look for Parkinson's disease like behaviors, as well as proteasome activity which will be monitored by the use of MRI. These MRI results will be used to look for changes within the individuals, as well as differences in the controls and other treatment group. Proteasome activity will be shown through the use of a contrasting dye. Between the control images and the images with the contrast at different time periods, the differences will be noted. 
 
 
 ### 13.	Indices - Will
@@ -137,6 +138,8 @@ In this section, you will be asked to describe the overall design of your study.
 -	Meta-Analysis - A systematic review of published studies.
 
 -	Other - please explain.
+
+
 
 
 ### 15.	Blinding - Riley
