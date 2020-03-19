@@ -18,12 +18,14 @@ knitr::opts_chunk$set(echo = F)
 
 ### 1.	Title - Will
 
+In-vivo imaging of Proteasome-based Parkinson's Disease Model
 
 ### 2.	Authorship - Will
 
-Author A^1^ 
+McDonell, Riley. ^1^ Snyder, William E. ^1^ *
 
-^1^ Affiliation A
+^1^ Student, Biology Department, Bucknell University.
+*Co-first authorship, authors contributed equally
 
 ### 3.	Research Questions - Riley
 
@@ -48,13 +50,11 @@ In this section we will ask you to describe how you plan to collect samples, as 
 
 - Registration prior to creation of data: As of the date of submission of this research plan for preregistration, the data have not yet been collected, created, or realized. 
 
-- Registration prior to any human observation of the data: As of the date of submission, the data exist but have not yet been quantified, constructed, observed, or reported by anyone - including individuals that are not associated with the proposed study. Examples include museum specimens that have not been measured and data that have been collected by non-human collectors and are inaccessible.
+ 
+We will be analyzing data that will be created, and so our registration will be prior to the creation of the data. While the data of when the rats have appeared to develop onset of the Parkinson's model will help determine the intervals at which we collect data, we are not specifically analyzing the previous data on Parkinson's onset and will be basing our analysis based on when we evaluate Parkinson's onset occurs. 
 
-- Registration prior to accessing the data: As of the date of submission, the data exist, but have not been accessed by you or your collaborators. Commonly, this includes data that has been collected by another researcher or institution.
 
--	Registration prior to analysis of the data: As of the date of submission, the data exist and you have accessed it, though no analysis has been conducted related to the research plan (including calculation of summary statistics). A common situation for this scenario when a large dataset exists that is used for many different studies over time, or when a data set is randomly split into a sample for exploratory analyses, and the other section of data is reserved for later confirmatory data analysis.
-
--	Registration following analysis of the data: As of the date of submission, you have accessed and analyzed some of the data relevant to the research plan. This includes preliminary analysis of variables, calculation of descriptive statistics, and observation of data distributions. Studies that fall into this category are ineligible for the Pre-Reg Challenge. Please contact us (prereg@cos.io) and we will be happy to help you.
+ 
  
 ### 6.	Explanation of existing data - Riley
 
@@ -65,6 +65,16 @@ In this section we will ask you to describe how you plan to collect samples, as 
 ### 7.	Data collection procedures. - Will
 
 *7.1.	Please describe the process by which you will collect your data. If you are using human subjects, this should include the population from which you obtain subjects, recruitment efforts, payment for participation, how subjects will be selected for eligibility from the initial pool (e.g. inclusion and exclusion rules), and your study timeline. For studies that don’t include human subjects, include information about how you will collect samples, duration of data gathering efforts, source or location of samples, or batch numbers you will use.* 
+
+Sprague - Dawley rats (non-siblings) will be the experimental unit, and their brains will be the observational unit with measurements collected through MRI. 
+
+The McNaught et al. (2004) study began to give evidence for compensatory changes in the central nervous systems before and after the onset on behavioral changes induced by the toxins that produced a Parkinson's model in the rats, but the study was not prepared to give similar analyses for both epoximicin and PSI treatment given measures were taken only once a week. Based on their findings that 1 week and 2 weeks was sufficient for all rats to reach Parkinson's Disease related behavior with epoximicin treatment and PSI treatment (respectively), we will decide to collect data for six weeks, with data collected at half week intervals to capture the pre-onset and post-onset neural alterations. We will base our analyses on data relative to the onset of the disease's related behaviors, but this timeline will give us a stopping point and general intervals with which we should adopt.
+
+Therefore, we will collect data every third night and seventh day of the week (approximately .5 week and 1 week time points) for six weeks. We will collect video data to evaluate Parkinson's Disease symptoms through the qualitative and automatic / objective measures described in McNaught et al. (2004) to determine when all rats in a group have reached onset of Parkinson's Disease behaviors. We will collect MRI data at the same time points using the methods in Yoo et al. (2007) to estimate proteasome activity. McNaught et al. (2007) collected data for proteasome activity but did not give information regarding which brain hemispheres were used or which rats were chosen to be included in the study. Additionally, there data collection only after sacrificing the rats (and with different sacrificing methods) limits the amount of timepoints for data. Therefore, we will collect in-vivo MRI data to estimate proteasome activity at every half week interval to capture brain region compensatory mechanisms for proteasome activity in Parkinson's Disease. If after six weeks no behaviors are affected that will resemble Parkinson's Disease, we will fail to reject that the treatment does not induce a Parkinson's Disease behavioral model, and the MRI data will not be analyzed because the MRI data will be interpreted with respectto Parkinson's Disease behavior onset.
+
+
+The data that will be analyzed will not be from all time points collected. Instead, we will use MRI data from halfway between the start of treatment and when all rats in a group reach onset of Parkinson's Disease related behaviors, and we will use MRI data an equal amount of time after the onset. For example, if onset for epoximicin treatment is at 7 days, we will use the 3.5 and 10.5 day MRI data so we can show how proteasome activity is altered prior to and following behavioral onset of Parkinson's Disease behaviors. The data will all be whole-brain MRI data from a 15 minute baseline scan and a 15 minute post-contrast agent scan. The contrast agent described in Yoo et al. (2007) is able to give a signal for active proteasomes, since the proteasomes will induce a paramagnetic chemical exchange saturation transfer to the contrast agent which is detectable by MRI. See following sections for how we will perform statistics on this data. 
+
 
 
 
@@ -83,6 +93,10 @@ In this section we will ask you to describe how you plan to collect samples, as 
 ### 10.	Stopping rule - Will
 
 *10.1.	If your data collection procedures do not give you full control over your exact sample size, specify how you will decide when to terminate your data collection.* 
+
+
+The only "stopping rule" we will use is not with respect to the sample size but duration of collection, as described in the data collection procedures. 
+
 
  
 
@@ -107,6 +121,7 @@ In this section you can describe all variables (both manipulated and measured va
 *13.1.	If any measurements are going to be combined into an index (or even a mean), what measures will you use and how will they be combined? Include either a formula or a precise description of your method. If you are using a more complicated statistical method to combine measures (e.g. a factor analysis), you can note that here but describe the exact method in the analysis plan section.*
 
 
+We will collect whole - brain signals, and in further data analyses we will focus on the ventral midbrain, striatum, spinal cord, lower brainstem, cerebral cortex, and cerebellum from which we will determine an average signal for each brain region over a 15 minute MRI scan (which was deemed a reasonable scan time in Yoo et al. (2007)). For each rat, a 15 minute scan prior to injection of the contrast agent at each round of data collection will serve as the baseline for the average MRI signal, which will be subtracted from the average signal after giving the contrast agent, to determine percent change for each rat in the MRI signal for each brain region. So, for each rat, we will have the percent change in average MRI signal for each of several brain regions. The average of the percent change in the average MRI signal will be compared between groups (e.g. epoximicin vs. control) and between the two time points (i.e. before and after Parkinson's Disease behavioral onset).
 
 ## Design Plan 
 
@@ -157,11 +172,13 @@ A confirmatory analysis plan must state up front which variables are predictors 
 
 *18.1.	What statistical model will you use to test each hypothesis? Please include the type of model (e.g. ANOVA, multiple regression, SEM, etc) and the specification of the model (this includes each variable that will be included as predictors, outcomes, or covariates). Please specify any interactions that will be tested and remember that any test not included here must be noted as an exploratory test in your final article.*
 
-
+As noted before, the average of the percent change in the average MRI signal will be compared between groups (e.g. epoximicin vs. control) and between the two time points (i.e. before and after Parkinson's Disease behavioral onset). Therefore, unpaired t-tests will compare between group differences at each time point, and paired t-tests will compare timepoint differences within a group. A general linear model will be able to test whether changes in the percent change of average MRI signal for a brain region will be prediected by the time point, or predicted by the treatment group. Bonferroni correction will occur so that the testing of many brain regions does not lead to significant results at alpha = 0.05 when the result could have occurred by chance.
 
 ### 19.	Transformations - Will
 
 *19.1.	If you plan on transforming, centering, recoding the data, or will require a coding scheme for categorical variables, please describe that process.*
+
+The MRI data will be spatially normalized to a template so that we can reliably compare brain regions between different rats. The template from Schweinhardt et al. (2003) will be used so that established rat-brain coordinate systems can be used to determine brain regions. We will create 3D masks that encompass the brain regions of interest so that we can extract average MRI signal for each brain region from the spatially normalized brains. 
 
 
 
@@ -169,12 +186,15 @@ A confirmatory analysis plan must state up front which variables are predictors 
 
 *20.1.	If not specified previously, will you be conducting any confirmatory analyses to follow up on effects in your statistical model, such as subgroup analyses, pairwise or complex contrasts, or follow-up tests from interactions. Remember that any analyses not specified in this research plan must be noted as exploratory.*
 
+Male / female ?
+
 
 
 ### 21.	Inference criteria - Will
 
 *21.1.	What criteria will you use to make inferences? Please describe the information you will use (e.g. p-values, Bayes factors, specific model fit indices), as well as cut-off criterion, where appropriate. Will you be using one or two tailed tests for each of your analyses? If you are comparing multiple conditions or testing multiple hypotheses, will you account for this?*
 
+The t-tests described in 18.1 will require that the distribution of the average percent change in brain region MRI signal is normally distributed. If this is not the case, we will use the non-parametric Wilcoxon-Mann-Whitney test. We will use two-tailed tests as it is unknown whether there could be increases or decreases in proteasome activity (as proxied by the MRI data). As described in 18.1, we will use Bonferroni correction to correct for testing significance in multiple brain regions, by dividing our alpha by the number of brain regions (adjusted alpha = 0.05 / 6 = 0.00833). 
 
 
 ### 22.	Data exclusion - Riley
@@ -196,3 +216,7 @@ A confirmatory analysis plan must state up front which variables are predictors 
 
 
 ## References 
+
+
+
+https://doi.org/10.1016/S0165-0270(03)00192-4
