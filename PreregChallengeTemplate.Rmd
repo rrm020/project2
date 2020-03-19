@@ -31,8 +31,10 @@ McDonell, Riley. ^1^ Snyder, William E. ^1^ *
 
 *3.1.	Please list each research question included in this study.*
 
-
-1. 
+1. Do rats treated with PSI develop Parkinson's disease like behaviors?
+2. Do rats treated with epoxomicin develop Parkinson's disease like behaviors?
+3. Are there differences in the development of Parkinson's disease like behaviors between epoxomicin and PSI?
+4. How fast is the onset of Parkinson's disease symptoms between groups?
 
 ### 4.	Hypotheses - Riley
 
@@ -54,12 +56,11 @@ In this section we will ask you to describe how you plan to collect samples, as 
 We will be analyzing data that will be created, and so our registration will be prior to the creation of the data. While the data of when the rats have appeared to develop onset of the Parkinson's model will help determine the intervals at which we collect data, we are not specifically analyzing the previous data on Parkinson's onset and will be basing our analysis based on when we evaluate Parkinson's onset occurs. 
 
 
- 
- 
 ### 6.	Explanation of existing data - Riley
 
 *6.1.	If you indicate that you will be using some data that already exist in this study, please describe the steps you have taken to assure that you are unaware of any patterns or summary statistics in the data. This may include an explanation of how access to the data has been limited, who has observed the data, or how you have avoided observing any analysis of the specific data you will use in your study. The purpose of this question is to assure that the line between confirmatory and exploratory analysis is clear.*  
 
+We will not be using any existing data to guide our research. 
 
 
 ### 7.	Data collection procedures. - Will
@@ -77,18 +78,18 @@ The data that will be analyzed will not be from all time points collected. Inste
 
 
 
-
 ### 8.	Sample size - Riley
 
 *8.1.	Describe the sample size of your study. How many units will be analyzed in the study? This could be the number of people, birds, classrooms, plots, interactions, or countries included. If the units are not individuals, then describe the size requirements for each unit. If you are using a clustered or multilevel design, how many units are you collecting at each level of the analysis?*
 
+We will using 180 Sprague - Dawley rats (non-siblings): 60 control, 60 epoximicin, 60 PSI, which gives 30 males and 30 females within each group. The rats will be about the same age, or at least close in age. They will also be unrelated. Each mouse is treated as an individual. 
 
 
 ### 9.	Sample size rationale - Riley
 
 *9.1.	This could include a power analysis or an arbitrary constraint such as time, money, or personnel.*
 
-
+The sample size may seem large, but this number was selected because it will allow our results to be statistcally sound. We will meet the sample size requirements for the statistical tests we intend to perform. This will require a significant amount of time to care for the animals, especially during testing, but this ensures that our results will be valid. 
 
 ### 10.	Stopping rule - Will
 
@@ -160,7 +161,7 @@ In this section, you will be asked to describe the overall design of your study.
 
 *17.1.	If you are doing a randomized study, how will you randomize, and at what level?*
 
-
+Age matched rat groups that are then randomized 
 
 ## Analysis Plan
 
@@ -201,6 +202,7 @@ The t-tests described in 18.1 will require that the distribution of the average 
 
 *22.1.	How will you determine what data or samples, if any, to exclude from your analyses? How will outliers be handled?*
 
+We will keep our outliers present in our figures and we will mention them in our discussion, but they will not be excluded in any analysis. If less than 25% of the rats in each tested group do not show Parkinson's disease related behavior, then we will exclude this data. 
   
 
 ### 23.	Missing data - Riley
