@@ -133,38 +133,26 @@ In this section, you will be asked to describe the overall design of your study.
 
 -	*Experiment* - A researcher randomly assigns treatments to study subjects, this includes field or lab experiments. This is also known as an intervention experiment and includes randomized controlled trials.
 
--	Observational Study - Data is collected from study subjects that are not randomly assigned to a treatment. This includes surveys, natural experiments, and regression discontinuity designs.
-
--	Meta-Analysis - A systematic review of published studies.
-
--	Other - please explain.
-
-
-
 
 ### 15.	Blinding - Riley
 
 *15.1.	Blinding describes who is aware of the experimental manipulations within a study. Mark all that apply.*
 
--	No blinding is involved in this study.
+No blinding is involved in this study.
 
--	For studies that involve human subjects, they will not know the treatment group to which they have been assigned.
-
--	Personnel who interact directly with the study subjects (either human or non-human subjects) will not be aware of the assigned treatments.
-
--	Personnel who analyze the data collected from the study are not aware of the treatment applied to any given group.
 
 ### 16.	Study design - Riley
 
 *16.1.	Describe your study design. Examples include two-group, factorial, randomized block, and repeated measures. Is it a between (unpaired), within-subject (paired), or mixed design? Describe any counterbalancing required. Typical study designs for observation studies include cohort, cross sectional, and case-control studies.*
 
+Our study is a randomized control study where our results are compared within each treatment group which are not related to one another. Each treatment is independent of eachother and will be compared relative to each group after the data has been collected. The MRI scans for proteasome activity for each region will be compared against the starting scans. With this being an experimental study our varaibles are randomized and independent of one another, so this is a randomized control study. 
 
 
 ### 17.	Randomization -Riley
 
 *17.1.	If you are doing a randomized study, how will you randomize, and at what level?*
 
-Age matched rat groups that are then randomized 
+After the rats are split by gender, 90 male and 90 female, they will be randomly selected for one of three groups: the control, PSI treatment, or epoxomicin treatment. This can be done by assigning each rat a number and using a radomizer to pick option 1 (control), option 2 (PSI), and 3 (epoxomicin). 
 
 ## Analysis Plan
 
@@ -212,7 +200,7 @@ We will keep our outliers present in our figures and we will mention them in our
 
 *23.1.	How will you deal with incomplete or missing data?*
 
-
+If the rats do not survive to reach the end of the experiment then their previously recorded data will not be used. Other than that instance there would be no reason to exclude data points or scan results.
 ## Other
 
 ### 26.	Other
