@@ -28,14 +28,14 @@ McDonell, Riley. ^1^ Snyder, William E. ^1^ *
 
 1. Do rats treated with PSI develop Parkinson's disease like behaviors?
 2. Do rats treated with epoxomicin develop Parkinson's disease like behaviors?
-3. Are there differences in the development of Parkinson's disease like behaviors between epoxomicin and PSI?
+3. How does proteasome function change in brain regions in response to epoximicin or PSI treatment at different stages of disease progression?
 4. How fast is the onset of Parkinson's disease symptoms between groups?
 
 ### 4.	Hypotheses - Riley
 
 *4.1.	For each of the research questions listed in the previous section, provide one or multiple specific and testable hypotheses. Please state if the hypotheses are directional or non-directional. If directional, state the direction. A predicted effect is also appropriate here.*
 
-Our hypotheses are all non-directional due to the type of experimental study we are conducting. we predict there will be differences in the onset of Parkinson's disease like behaviors in PSI treatment versus the control, as well as a difference in epoxomicin and the control. Epoxomicin degrades the pathways inhibiting proteasome activity, thus a potentially more rapid onset of Parkinson's disease. PSI has a similar effect, but it is snythetic while epoxomicin is naturally occuring. 
+Our hypotheses are all non-directional due to the type of experimental study we are conducting. We predict there will be differences in the onset of Parkinson's disease like behaviors in PSI treatment versus the control, as well as a difference in epoxomicin and the control. We predict that proteasomal activity, as poroxied by an MRI signal, will be increased in all brain regions prior to onset of Parkinson's Disease related behaviors, and that the the elevation in the proteasomal activity will remain following the onset except for in the ventral midbrain and lower brainstem, indicating a vulnerability of these regions to protesomal injury that other brain regions could otherwise successfully compensate for. 
  
 ## Sampling Plan 
 
@@ -159,7 +159,7 @@ A confirmatory analysis plan must state up front which variables are predictors 
 
 *18.1.	What statistical model will you use to test each hypothesis? Please include the type of model (e.g. ANOVA, multiple regression, SEM, etc) and the specification of the model (this includes each variable that will be included as predictors, outcomes, or covariates). Please specify any interactions that will be tested and remember that any test not included here must be noted as an exploratory test in your final article.*
 
-As noted before, the average of the percent change in the average MRI signal will be compared between groups (e.g. epoximicin vs. control) and between the two time points (i.e. before and after Parkinson's Disease behavioral onset). Therefore, unpaired t-tests will compare between group differences at each time point, and paired t-tests will compare timepoint differences within a group. A general linear model will be able to test whether changes in the percent change of average MRI signal for a brain region will be prediected by the time point, or predicted by the treatment group. Bonferroni correction will occur so that the testing of many brain regions does not lead to significant results at alpha = 0.05 when the result could have occurred by chance.
+As noted before, the average of the percent change in the average MRI signal will be compared between groups (e.g. epoximicin vs. control) and between the two time points (i.e. before and after Parkinson's Disease behavioral onset). Therefore, unpaired t-tests will compare between group differences at each time point, and paired t-tests will compare timepoint differences within a group. A general linear model will be able to test whether changes in the percent change of average MRI signal for a brain region will be prediected by the time point, or predicted by the treatment group. The general linear model will also include sex and age of the rats as covariates. Bonferroni correction will occur so that the testing of many brain regions does not lead to significant results at alpha = 0.05 when the result could have occurred by chance.
 
 ### 19.	Transformations - Will
 
@@ -173,8 +173,7 @@ The MRI data will be spatially normalized to a template so that we can reliably 
 
 *20.1.	If not specified previously, will you be conducting any confirmatory analyses to follow up on effects in your statistical model, such as subgroup analyses, pairwise or complex contrasts, or follow-up tests from interactions. Remember that any analyses not specified in this research plan must be noted as exploratory.*
 
-Male / female ?
-
+We will analyze whether there are sex-specific differences in response to proteasome dysruption if we find that sex is a significant covariate in our analyses. We will repeat our t-tests (or non-parametrtic tests) described in 18.1 but separately for each sex. 
 
 
 ### 21.	Inference criteria - Will
@@ -205,6 +204,6 @@ If the rats do not survive to reach the end of the experiment then their previou
 
 ## References 
 
-
-
-https://doi.org/10.1016/S0165-0270(03)00192-4
+McNaught, K. St. P., Perl, D. P., Brownell, A.-L., & Olanow, C. W. (2004). Systemic exposure to proteasome inhibitors causes a                      progressive model of Parkinson’s disease. Annals of Neurology, 56(1), 149–162. https://doi.org/10.1002/ana.20186
+Schweinhardt, P., Fransson, P., Olson, L., Spenger, C., & Andersson, J. L. R. (2003). A template for spatial normalisation of MR images              of the rat brain. Journal of Neuroscience Methods, 129(2), 105–113. https://doi.org/10.1016/S0165-0270(03)00192-4  
+Yoo, B., Raam, M. S., Rosenblum, R. M., & Pagel, M. D. (2007). Enzyme-responsive PARACEST MRI contrast agents: A new biomedical imaging              approach for studies of the proteasome. Contrast Media & Molecular Imaging, 2(4), 189–198.                                             https://doi.org/10.1002/cmmi.145
